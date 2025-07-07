@@ -29,3 +29,8 @@ nav ul li:last-child img{
     width: 20px;
 }
 
+@media (width <= 768px){
+    .mobile{
+        display: none;
+    }
+}

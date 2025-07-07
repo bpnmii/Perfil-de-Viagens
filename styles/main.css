@@ -9,3 +9,11 @@ main img{
     height: 286px;
     object-fit: cover;
 }
+
+@media (width <= 768px){
+    main {
+        align-items: center;
+        justify-content: center;
+        padding-block: 0;
+    }
+}
